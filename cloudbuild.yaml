@@ -6,6 +6,7 @@ steps:
   - deploy
   - cat-function-test
   - --region=us-central1
+  - --project=murriel-serverless-demos
   - --source=function/
   - --trigger-http
   - --runtime=python39
